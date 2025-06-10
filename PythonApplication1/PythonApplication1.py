@@ -51,3 +51,5 @@ print(stringExample)
 stringExample = "to jest String"
 stringExample = stringExample.replace("to jest String", "Lancuch znakow")
 print(stringExample)
+
+print("dzia³a")
