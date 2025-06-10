@@ -52,4 +52,4 @@ stringExample = "to jest String"
 stringExample = stringExample.replace("to jest String", "Lancuch znakow")
 print(stringExample)
 
-print("git test")
+print("git x")
