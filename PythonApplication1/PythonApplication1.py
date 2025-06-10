@@ -52,4 +52,7 @@ stringExample = "to jest String"
 stringExample = stringExample.replace("to jest String", "Lancuch znakow")
 print(stringExample)
 stringExample.isnumeric()
-print(stringExample.isnumeric())
+print(stringExample.isnumeric()) 
+
+for x in range(1,len(stringExample), 2):
+    print(x) 
