@@ -33,4 +33,4 @@ while numberForLoop < 10:
     print(numberForLoop)
     numberForLoop += 1
 
-
+a = input("podaj liczbe")
