@@ -1,9 +1,4 @@
-
 #zmienne
-
-from tarfile import FIFOTYPE
-
-
 number1 = 10 
 number2 = 9
 
@@ -55,4 +50,12 @@ stringExample.isnumeric()
 print(stringExample.isnumeric()) 
 
 for x in range(1,len(stringExample), 2):
-    print(x) 
+    if x % 1== 0:
+        print(x)
+
+
+print("\n")
+numberForLoop = 5
+
+for u in range(5, numberForLoop * numberForLoop , numberForLoop + 2):
+    print(u)
