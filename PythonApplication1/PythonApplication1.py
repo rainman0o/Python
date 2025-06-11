@@ -34,29 +34,3 @@ while numberForLoop < 10:
     numberForLoop += 1
 
 
-#stringi operacje
-stringExample = "to jest String"
-
-stringExample = stringExample.upper()
-print(stringExample)
-
-stringExample = stringExample.lower()
-print(stringExample)
-
-stringExample = "to jest String"
-stringExample = stringExample.replace("to jest String", "Lancuch znakow")
-print(stringExample)
-stringExample.isnumeric()
-print(stringExample.isnumeric()) 
-
-for x in range(1,len(stringExample), 2):
-    if x % 1== 0:
-        print(x)
-
-
-print("\n")
-numberForLoop = 5
-
-for u in range(5, numberForLoop * numberForLoop + 50 , numberForLoop + 2):
-    if(u % numberForLoop == 0):
-        print(u)
