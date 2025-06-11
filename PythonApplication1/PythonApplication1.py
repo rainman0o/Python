@@ -57,5 +57,6 @@ for x in range(1,len(stringExample), 2):
 print("\n")
 numberForLoop = 5
 
-for u in range(5, numberForLoop * numberForLoop , numberForLoop + 2):
-    print(u)
+for u in range(5, numberForLoop * numberForLoop + 50 , numberForLoop + 2):
+    if(u % numberForLoop == 0):
+        print(u)
