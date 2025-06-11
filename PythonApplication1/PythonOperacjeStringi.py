@@ -53,3 +53,8 @@ print(newString[0])
 print(newString[1])
 print(newString[0][4])
 print(newString[1][4])
+
+#operacje arytmetyczne
+
+oldString  = newString[0] + newString[1]
+print(oldString)
