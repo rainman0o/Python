@@ -41,3 +41,11 @@ print("\n")
 
 for y in testList:
     print(y)
+
+print("\n")
+
+for item in testList[:]:
+    if item % 2 == 0:
+        testList.remove(item)
+
+print(testList)
