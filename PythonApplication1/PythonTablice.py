@@ -54,9 +54,13 @@ print(testList)
 firstList = [1,2,3,4,6,7,8]
 secondList = [1,3,3,8,6,7,9,10]
 
+#laczanie list bez powtórzeń
 def mergeArrays(array1, array2):
     return sorted(set(array1 + array2))
 
 thirdList = mergeArrays(firstList, secondList)
 
+
+print(firstList)
+print(secondList)
 print(thirdList)
